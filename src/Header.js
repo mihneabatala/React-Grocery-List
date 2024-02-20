@@ -1,17 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const Header = (props) => {
-  
-  
   return (
     <header>
-        <h1>{props.title}</h1>
+      <h1>{props.title}</h1>
     </header>
-  )
-}
+  );
+};
 
 Header.defaultProps = {
-  title:"Default Title"
-}
+  title: "Default Title",
+};
 
-export default Header
+export default Header;

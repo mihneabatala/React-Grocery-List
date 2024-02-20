@@ -22,7 +22,7 @@ const AddItem = ({newItem,setNewItem,handleSubmit}) => {
             onClick={() => inputRef.current.focus()}
         >
             <FaPlus />
-        </button>
+        </button> 
     </form>
   )
 }
